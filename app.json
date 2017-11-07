@@ -1,0 +1,16 @@
+{
+  "name": "hungergames",
+  "description": "OpenFoodFacts gamification",
+  "website": "https://github.com/Phyks/HungerGames",
+  "repository": "https://github.com/Phyks/HungerGames",
+  "image": "heroku/nodejs",
+  "env": {
+    "NODE_ENV": {
+      "value": "production",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "npm run build"
+  }
+}
